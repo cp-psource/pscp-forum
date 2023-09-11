@@ -1165,7 +1165,7 @@ function forums_output_edit_post_process($tmp_fid,$tmp_pid,$tmp_tid) {
 	$content = $content . forums_output_new_post($tmp_fid,$tmp_tid,0,'');
 }
 
-function forums_output_edit_post($tmp_pid,$tmp_fid,$tmp_tid,$tmp_errors,$tmp_error_msg = '',$tmp_page) {
+function forums_output_edit_post($tmp_pid,$tmp_fid,$tmp_tid,$tmp_errors,$tmp_page,$tmp_error_msg = '') {
 	global $wpdb, $user_ID;
 	if ( !empty($wpdb->base_prefix) ) {
 		$db_prefix = $wpdb->base_prefix;
@@ -1195,7 +1195,7 @@ function forums_output_edit_post($tmp_pid,$tmp_fid,$tmp_tid,$tmp_errors,$tmp_err
 	$content = $content . '<fieldset style="border:none;">';
 	$content = $content . '<table width="100%" cellspacing="2" cellpadding="5">';
 	$content = $content . '<tr valign="top">';
-	$content = $content . '<th scope="row">' . __( 'Post:', 'psforum' ) . '</th>';
+	$content = $content . '<th scope="row">' . __( 'Beitrag:', 'psforum' ) . '</th>';
 	if ($tmp_errors > 0){
 		$content = $content . '<td><textarea name="post_content" id="post_content" style="width: 95%" rows="5">' . esc_textarea($_POST['post_content']) . '</textarea>';
 	} else {
