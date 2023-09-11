@@ -42,3 +42,13 @@ div.forum_color {
     border: 1px solid #DFDFDF;
     -moz-border-radius:4px 4px 4px 4px;
 }
+
+.error_text {
+  color: red;
+  font-size:medium;
+}
+
+.forum_admin_page {
+  background: #fff;
+  padding: 5px;
+}

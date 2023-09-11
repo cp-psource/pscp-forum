@@ -172,7 +172,7 @@ msgstr ""
 #: forums.php:1078 forums.php:1125 forums.php:1209 forums.php:1608
 #: forums.php:1614 forums.php:1987 forums.php:2056 forums.php:2161
 #: forums.php:2231
-msgid "Benötigt"
+msgid "Erforderlich"
 msgstr ""
 
 #: forums.php:1083
@@ -374,7 +374,7 @@ msgid "Rahmengröße"
 msgstr ""
 
 #: forums.php:2049 forums.php:2223
-msgid "Bitte fülle alle geforderten Felder aus"
+msgid "Bitte fülle alle ERFORDERLICHEN Felder aus und speichere dann erneut!"
 msgstr ""
 
 #: forums.php:2053 forums.php:2158 forums.php:2228

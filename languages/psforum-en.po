@@ -205,7 +205,7 @@ msgstr "Contribution:"
 #: forums.php:1614 forums.php:1987 forums.php:2056 forums.php:2161
 #: forums.php:2231
 #, fuzzy
-msgid "Benötigt"
+msgid "Erforderlich"
 msgstr "Requires"
 
 #: forums.php:1083
@@ -445,7 +445,7 @@ msgstr "Frame size"
 
 #: forums.php:2049 forums.php:2223
 #, fuzzy
-msgid "Bitte fülle alle geforderten Felder aus"
+msgid "Bitte fülle alle ERFORDERLICHEN Felder aus und speichere dann erneut!"
 msgstr "Please fill in all required fields"
 
 #: forums.php:2053 forums.php:2158 forums.php:2228

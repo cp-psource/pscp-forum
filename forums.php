@@ -1075,7 +1075,7 @@ function forums_output_new_post_separate($tmp_fid,$tmp_tid,$tmp_errors,$tmp_erro
 			$content = $content . '<th scope="row">' . __( 'Beitrag:', 'psforum' ) . '</th>';
 			$content = $content . '<td><textarea name="post_content" id="post_content" style="width: 95%" rows="5">' . esc_textarea($_POST['post_content']) . '</textarea>';
 			$content = $content . '<br />';
-			$content = $content . __( 'Benötigt', 'psforum' ) . '</td>';
+			$content = $content . __( 'Erforderlich', 'psforum' ) . '</td>';
 			$content = $content . '</tr>';
 			$content = $content . '</table>';
 			$content = $content . '</fieldset>';
@@ -1122,7 +1122,7 @@ function forums_output_new_post($tmp_fid,$tmp_tid,$tmp_errors,$tmp_error_msg = '
 			$content = $content . '<th scope="row">' . __( 'Beitrag:', 'psforum' ) . '</th>';
 			$content = $content . '<td><textarea name="post_content" id="post_content" style="width: 95%" rows="5">' . esc_textarea(isset($_POST['post_content'])?$_POST['post_content']:'') . '</textarea>';
 			$content = $content . '<br />';
-			$content = $content . __( 'Benötigt', 'psforum' ) . '</td>';
+			$content = $content . __( 'Erforderlich', 'psforum' ) . '</td>';
 			$content = $content . '</tr>';
 			$content = $content . '</table>';
 			$content = $content . '</fieldset>';
@@ -1206,7 +1206,7 @@ function forums_output_edit_post($tmp_pid,$tmp_fid,$tmp_tid,$tmp_errors,$tmp_err
 		$content = $content . '<td><textarea name="post_content" id="post_content" style="width: 95%" rows="5">' . esc_textarea(stripslashes($tmp_post_content)) . '</textarea>';
 	}
 	$content = $content . '<br />';
-	$content = $content . __( 'Benötigt', 'psforum' ) . '</td>';
+	$content = $content . __( 'Erforderlich', 'psforum' ) . '</td>';
 	$content = $content . '</tr>';
 	$content = $content . '</table>';
 	$content = $content . '</fieldset>';
@@ -1605,13 +1605,13 @@ function forums_output_new_topic($tmp_fid, $tmp_errors,$tmp_error_msg = '') {
 		$content = $content . '<th scope="row">' . __( 'Titel:', 'psforum' ) . '</th>';
 		$content = $content . '<td><input type="text" name="topic_title" id="topic_title" style="width: 95%" value="' . esc_attr(isset($_POST['topic_title'])?$_POST['topic_title']:'') . '"/>';
 		$content = $content . '<br />';
-		$content = $content . __( 'Benötigt', 'psforum' ) . '</td>';
+		$content = $content . __( 'Erforderlich', 'psforum' ) . '</td>';
 		$content = $content . '</tr>';
 		$content = $content . '<tr valign="top">';
 		$content = $content . '<th scope="row">' . __('Beitrag:') . '</th>';
 		$content = $content . '<td><textarea name="post_content" id="post_content" style="width: 95%" rows="5">' . esc_textarea(isset($_POST['post_content'])?$_POST['post_content']:'') . '</textarea>';
 		$content = $content . '<br />';
-		$content = $content . __( 'Benötigt', 'psforum' ) . '</td>';
+		$content = $content . __( 'Erforderlich', 'psforum' ) . '</td>';
 		$content = $content . '</tr>';
 		$content = $content . '</table>';
 		$content = $content . '</fieldset>';
@@ -1984,7 +1984,7 @@ function forums_manage_output() {
 					<th scope="row"><?php _e( 'Foren-Name', 'psforum' ) ?></th>
 					<td><input type="text" name="forum_name" id="forum_name" style="width: 95%" value="<?php echo esc_attr(isset($_POST['forum_name'])?$_POST['forum_name']:''); ?>" />
 					<br />
-					<?php _e( 'Benötigt', 'psforum' ) ?></td>
+					<?php _e( 'Erforderlich', 'psforum' ) ?></td>
 					</tr>
 					<tr valign="top">
 					<th scope="row"><?php _e( 'Beschreibung', 'psforum' ) ?></th>
@@ -2045,15 +2045,16 @@ function forums_manage_output() {
 		case "new_forum_process":
 			if ($_POST['forum_name'] == ''){
 					?>
+					<div class="forum_admin_page">
 						<h2><?php _e( 'Neues Forum', 'psforum' ) ?></h2>
-                        <p><?php _e( 'Bitte fülle alle geforderten Felder aus', 'psforum' ) ?></p>
+                        <p class="error_text"><?php _e( 'Bitte fülle alle ERFORDERLICHEN Felder aus und speichere dann erneut!', 'psforum' ) ?></p>
 						<form name="form1" method="POST" action="admin.php?page=psforum&action=new_forum_process">
 							<table class="form-table">
 							<tr valign="top">
 							<th scope="row"><?php _e( 'Name', 'psforum' ) ?></th>
 							<td><input type="text" name="forum_name" id="forum_name" style="width: 95%" value="<?php echo esc_attr($_POST['forum_name']); ?>" />
 							<br />
-							<?php _e( 'Benötigt', 'psforum' ) ?></td>
+							<?php _e( 'Erforderlich', 'psforum' ) ?></td>
 							</tr>
 							<tr valign="top">
 							<th scope="row"><?php _e( 'Beschreibung', 'psforum' ) ?></th>
@@ -2106,6 +2107,7 @@ function forums_manage_output() {
 						<input type="submit" name="Submit" value="<?php _e( 'Speichern', 'psforum' ) ?>" />
 						</p>
 						</form>
+					</div>
 					<?php
 			} else { ///TODO regex needed here for color values
 				$wpdb->insert(
@@ -2158,7 +2160,7 @@ function forums_manage_output() {
                 <th scope="row"><?php _e( 'Name', 'psforum' ) ?></th>
 				<td><input type="text" name="forum_name" id="forum_name" style="width: 95%" value="<?php echo esc_attr($tmp_forum_name); ?>" />
                 <br />
-                <?php _e( 'Benötigt', 'psforum' ) ?></td>
+                <?php _e( 'Erforderlich', 'psforum' ) ?></td>
                 </tr>
                 <tr valign="top">
                 <th scope="row"><?php _e( 'Beschreibung', 'psforum' ) ?></th>
@@ -2220,7 +2222,7 @@ function forums_manage_output() {
 				if ($_POST['forum_name'] == ''){
 					?>
 						<h2><?php _e( 'Forum bearbeiten', 'psforum' ) ?></h2>
-                        <p><?php _e( 'Bitte fülle alle geforderten Felder aus', 'psforum' ) ?></p>
+                        <p class="error_text"><?php _e( 'Bitte fülle alle ERFORDERLICHEN Felder aus und speichere dann erneut!', 'psforum' ) ?></p>
 						<form name="form1" method="POST" action="admin.php?page=psforum&action=edit_forum_process">
 						<input type="hidden" name="fid" value="<?php echo (int)$_POST['fid']; ?>" />
 							<table class="form-table">
@@ -2228,7 +2230,7 @@ function forums_manage_output() {
 							<th scope="row"><?php _e( 'Name', 'psforum' ) ?></th>
 							<td><input type="text" name="forum_name" id="forum_name" style="width: 95%" value="<?php echo esc_attr($_POST['forum_name']); ?>" />
 							<br />
-							<?php _e( 'Benötigt', 'psforum' ) ?></td>
+							<?php _e( 'Erforderlich', 'psforum' ) ?></td>
 							</tr>
 							<tr valign="top">
 							<th scope="row"><?php _e( 'Beschreibung', 'psforum' ) ?></th>
