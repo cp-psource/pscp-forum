@@ -1,0 +1,484 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Forum\n"
+"POT-Creation-Date: 2023-09-11 11:53+0200\n"
+"PO-Revision-Date: 2023-09-11 11:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: forums.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: forums.php:71
+#, php-format
+msgid ""
+"Besuche die Registerkarte Upgrades, um weitere Foren zu erhalten. Derzeit "
+"bist Du auf %s beschränkt"
+msgstr ""
+
+#: forums.php:104 forums.php:306 forums.php:308 forums.php:315
+msgid "Foren"
+msgstr ""
+
+#: forums.php:104
+msgid "Zusätzliche Foren"
+msgstr ""
+
+#: forums.php:315 forums.php:1856
+msgid "Forum Einstellungen"
+msgstr ""
+
+#: forums.php:321
+msgid "Nur für Pro..."
+msgstr ""
+
+#: forums.php:393
+msgid "Ungültiges Benutzerkonto..."
+msgstr ""
+
+#: forums.php:398
+msgid "Ungültiges Forum..."
+msgstr ""
+
+#: forums.php:410
+msgid "Thema hinzugefügt!"
+msgstr ""
+
+#: forums.php:446 forums.php:550 forums.php:631
+msgid "Thema geschlossen!"
+msgstr ""
+
+#: forums.php:448 forums.php:472 forums.php:518 forums.php:521 forums.php:552
+#: forums.php:576 forums.php:633 forums.php:657 forums.php:702 forums.php:722
+#: forums.php:725 forums.php:766 forums.php:770 forums.php:798
+msgid "Zugriff verweigert..."
+msgstr ""
+
+#: forums.php:470 forums.php:574 forums.php:655
+msgid "Thema eröffnet!"
+msgstr ""
+
+#: forums.php:483 forums.php:588 forums.php:668 forums.php:1709
+msgid "Geschlossen"
+msgstr ""
+
+#: forums.php:678
+msgid "Fehler beim Löschen des Themas..."
+msgstr ""
+
+#: forums.php:692
+msgid "Thema gelöscht!"
+msgstr ""
+
+#: forums.php:706
+msgid "Ungültiges Thema!"
+msgstr ""
+
+#: forums.php:736
+msgid "Fehler beim Löschen des Beitrags"
+msgstr ""
+
+#: forums.php:740
+msgid "Beitrag gelöscht"
+msgstr ""
+
+#: forums.php:786 forums.php:794
+msgid "Beitrag aktualisiert..."
+msgstr ""
+
+#: forums.php:805 forums.php:1056 forums.php:1101
+#, php-format
+msgid ""
+"Du musst ein registrierter und angemeldeter Benutzer dieses Blogs sein, um "
+"in diesem Forum posten zu können. Bitte <a href=\"%s\">anmelden</a> oder %s."
+msgstr ""
+
+#: forums.php:816
+msgid "Beitrag hinzugefügt..."
+msgstr ""
+
+#: forums.php:841
+msgid "Ungültiger Forum-Code"
+msgstr ""
+
+#: forums.php:853
+msgid "Zurück zum Index"
+msgstr ""
+
+#: forums.php:855 forums.php:1315 forums.php:1318
+msgid "Thema löschen"
+msgstr ""
+
+#: forums.php:857
+msgid "Thema öffnen"
+msgstr ""
+
+#: forums.php:859
+msgid "Thema schließen"
+msgstr ""
+
+#: forums.php:870
+msgid "Letzte Aktualisierung: "
+msgstr ""
+
+#: forums.php:870 forums.php:1476
+msgid "D, F jS Y g:i A"
+msgstr ""
+
+#: forums.php:871
+msgid "Letzte Antwort von: "
+msgstr ""
+
+#: forums.php:915
+msgid "Suchergebnisse"
+msgstr ""
+
+#: forums.php:918
+msgid "Beiträge:"
+msgstr ""
+
+#: forums.php:957
+msgid "Keine Treffer..."
+msgstr ""
+
+#: forums.php:989
+msgid "Suche"
+msgstr ""
+
+#: forums.php:1060 forums.php:1107
+msgid "Neuer Beitrag"
+msgstr ""
+
+#: forums.php:1063 forums.php:1110 forums.php:1184 forums.php:1594
+msgid "Du musst alle erforderlichen Felder ausfüllen..."
+msgstr ""
+
+#: forums.php:1075 forums.php:1122 forums.php:1202 forums.php:1611
+msgid "Beitrag:"
+msgstr ""
+
+#: forums.php:1078 forums.php:1125 forums.php:1209 forums.php:1608
+#: forums.php:1614 forums.php:1987 forums.php:2056 forums.php:2161
+#: forums.php:2231
+msgid "Benötigt"
+msgstr ""
+
+#: forums.php:1083
+msgid "Beitrag senden &raquo;"
+msgstr ""
+
+#: forums.php:1130 forums.php:1619
+msgid "Beitrag senden"
+msgstr ""
+
+#: forums.php:1181
+msgid "Beitrag bearbeiten"
+msgstr ""
+
+#: forums.php:1214
+msgid "Aktualisieren &raquo;"
+msgstr ""
+
+#: forums.php:1215 forums.php:1272 forums.php:1327
+msgid "Abbrechen &raquo;"
+msgstr ""
+
+#: forums.php:1259 forums.php:1262
+msgid "Beitrag löschen"
+msgstr ""
+
+#: forums.php:1260 forums.php:1316 forums.php:1589
+msgid "Du musst eingeloggt sein..."
+msgstr ""
+
+#: forums.php:1264
+msgid "Möchtest Du diesen Beitrag wirklich löschen?"
+msgstr ""
+
+#: forums.php:1271 forums.php:1326
+msgid "Löschen &raquo;"
+msgstr ""
+
+#: forums.php:1320
+msgid "Möchtest Du dieses Thema wirklich löschen?"
+msgstr ""
+
+#: forums.php:1363
+msgid " &laquo; Bisherige"
+msgstr ""
+
+#: forums.php:1365 forums.php:1408
+#, php-format
+msgid "Zeige %1s > %2s von %3s Beiträgen"
+msgstr ""
+
+#: forums.php:1371
+msgid "Weitere  &raquo;"
+msgstr ""
+
+#: forums.php:1406
+msgid "Bisherige"
+msgstr ""
+
+#: forums.php:1414
+msgid "Weitere"
+msgstr ""
+
+#: forums.php:1476
+msgid "Veröffentlicht: "
+msgstr ""
+
+#: forums.php:1484 forums.php:1486 forums.php:1490 forums.php:1963
+msgid "Bearbeiten"
+msgstr ""
+
+#: forums.php:1484
+msgid "Löschen"
+msgstr ""
+
+#: forums.php:1504
+msgid "Keine Beiträge zum Anzeigen..."
+msgstr ""
+
+#: forums.php:1588 forums.php:1591
+msgid "Neues Thema"
+msgstr ""
+
+#: forums.php:1605
+msgid "Titel:"
+msgstr ""
+
+#: forums.php:1645 forums.php:1652
+msgid "THEMEN"
+msgstr ""
+
+#: forums.php:1646 forums.php:1653
+msgid "BEITRÄGE"
+msgstr ""
+
+#: forums.php:1647 forums.php:1654
+msgid "NEUESTER BEITRAG"
+msgstr ""
+
+#: forums.php:1652
+msgid "NEUES THEMA"
+msgstr ""
+
+#: forums.php:1723 forums.php:1729
+msgid "Keine Themen zum Anzeigen..."
+msgstr ""
+
+#: forums.php:1729
+msgid "Klicke hier um ein neues Thema zu erstellen."
+msgstr ""
+
+#: forums.php:1823 forums.php:1901
+msgid "Netter Versuch..."
+msgstr ""
+
+#: forums.php:1860
+msgid "Themen pro Seite"
+msgstr ""
+
+#: forums.php:1864
+msgid "Beiträge pro Seite"
+msgstr ""
+
+#: forums.php:1868
+msgid "Maximale Anzahl von Foren"
+msgstr ""
+
+#: forums.php:1873
+msgid "Maximale Anzahl von Foren für Pro Blogs"
+msgstr ""
+
+#: forums.php:1878
+msgid "Upgrades zulassen"
+msgstr ""
+
+#: forums.php:1885 forums.php:2038 forums.php:2106
+msgid "Speichern"
+msgstr ""
+
+#: forums.php:1912 forums.php:1916
+msgid "Foren verwalten"
+msgstr ""
+
+#: forums.php:1912 forums.php:1980 forums.php:2048
+msgid "Neues Forum"
+msgstr ""
+
+#: forums.php:1928
+msgid ""
+"Aktualisiere Deinen Blog jetzt, um Foren hinzuzufügen, den Speicherplatz zu "
+"vergrößern, Videos einzubetten und mehr."
+msgstr ""
+
+#: forums.php:1932
+msgid "Klicke hier um ein neues Forum hinzuzufügen."
+msgstr ""
+
+#: forums.php:1964
+msgid "Entfernen"
+msgstr ""
+
+#: forums.php:1984
+msgid "Foren-Name"
+msgstr ""
+
+#: forums.php:1990 forums.php:2059 forums.php:2164 forums.php:2234
+msgid "Beschreibung"
+msgstr ""
+
+#: forums.php:1993 forums.php:2062 forums.php:2167 forums.php:2237
+msgid "Optional"
+msgstr ""
+
+#: forums.php:1996 forums.php:2065 forums.php:2170 forums.php:2240
+msgid "Hauptfarbe"
+msgstr ""
+
+#: forums.php:2000 forums.php:2007 forums.php:2014 forums.php:2021
+#: forums.php:2069 forums.php:2076 forums.php:2083 forums.php:2090
+#: forums.php:2174 forums.php:2181 forums.php:2188 forums.php:2195
+#: forums.php:2244 forums.php:2251 forums.php:2258 forums.php:2265
+msgid "Optional - Beispiel: #000000 ODER #FFFFFF"
+msgstr ""
+
+#: forums.php:2003 forums.php:2072 forums.php:2177 forums.php:2247
+msgid "Sekundäre Farbe"
+msgstr ""
+
+#: forums.php:2010 forums.php:2079 forums.php:2184 forums.php:2254
+msgid "Header Farbe"
+msgstr ""
+
+#: forums.php:2017 forums.php:2086 forums.php:2191 forums.php:2261
+msgid "Rahmen Farbe"
+msgstr ""
+
+#: forums.php:2024 forums.php:2093 forums.php:2198 forums.php:2268
+msgid "Rahmengröße"
+msgstr ""
+
+#: forums.php:2049 forums.php:2223
+msgid "Bitte fülle alle geforderten Felder aus"
+msgstr ""
+
+#: forums.php:2053 forums.php:2158 forums.php:2228
+msgid "Name"
+msgstr ""
+
+#: forums.php:2137
+msgid "Forum hinzugefügt."
+msgstr ""
+
+#: forums.php:2153 forums.php:2222
+msgid "Forum bearbeiten"
+msgstr ""
+
+#: forums.php:2211 forums.php:2281
+msgid "Änderungen speichern"
+msgstr ""
+
+#: forums.php:2317
+msgid "Einstellungen gespeichert."
+msgstr ""
+
+#: forums.php:2327
+msgid "Forum entfernen"
+msgstr ""
+
+#: forums.php:2328
+msgid ""
+"Möchtest Du dieses Forum wirklich entfernen? Alle Themen und Beiträge werden "
+"gelöscht."
+msgstr ""
+
+#: forums.php:2332
+msgid "Fortsetzen"
+msgstr ""
+
+#: forums.php:2333
+msgid "Abbrechen"
+msgstr ""
+
+#: forums.php:2350
+msgid "Forum entfernt."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:56
+msgid "View details"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:79
+#, php-format
+msgid "Weitere Informationen zu %s"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:130
+msgid "Auf neuere Version prüfen"
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Keine neuere Version von %s im PSOURCE REPO gefunden."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "Im PSOURCE REPO ist eine <b>neuere Version von %s</b> verfügbar!."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid ""
+"Entschuldige, es konnte nicht festgestellt werden, ob Updates für %s "
+"verfügbar sind."
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:227
+#, php-format
+msgid "Unbekannter PSOURCE-UPDATTER-Status \"%s\""
+msgstr ""
+
+#: psource/psource-plugin-update/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Quick Forum"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://n3rds.work/piestingtal_source/pscp-forum-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Ermöglicht jedem Blog, eigene Foren zu haben - eingebettet in jede Seite "
+"oder jeden Beitrag."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WMS N@W"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://n3rds.work"
+msgstr ""

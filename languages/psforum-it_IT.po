@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Forum\n"
+"POT-Creation-Date: 2023-09-11 11:56+0200\n"
+"PO-Revision-Date: 2023-09-11 11:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: forums.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: forums.php:71
+#, fuzzy, php-format
+msgid ""
+"Besuche die Registerkarte Upgrades, um weitere Foren zu erhalten. Derzeit "
+"bist Du auf %s beschränkt"
+msgstr ""
+"Visitare la scheda Aggiornamenti per ottenere ulteriori forum. Attualmente "
+"sei limitato a %s"
+
+#: forums.php:104 forums.php:306 forums.php:308 forums.php:315
+#, fuzzy
+msgid "Foren"
+msgstr "Forum"
+
+#: forums.php:104
+#, fuzzy
+msgid "Zusätzliche Foren"
+msgstr "Forum aggiuntivi"
+
+#: forums.php:315 forums.php:1856
+#, fuzzy
+msgid "Forum Einstellungen"
+msgstr "Impostazioni del forum"
+
+#: forums.php:321
+#, fuzzy
+msgid "Nur für Pro..."
+msgstr "Solo per i professionisti..."
+
+#: forums.php:393
+#, fuzzy
+msgid "Ungültiges Benutzerkonto..."
+msgstr "Account utente non valido..."
+
+#: forums.php:398
+#, fuzzy
+msgid "Ungültiges Forum..."
+msgstr "Forum non valido..."
+
+#: forums.php:410
+#, fuzzy
+msgid "Thema hinzugefügt!"
+msgstr "Tema aggiunto!"
+
+#: forums.php:446 forums.php:550 forums.php:631
+#, fuzzy
+msgid "Thema geschlossen!"
+msgstr "Argomento chiuso!"
+
+#: forums.php:448 forums.php:472 forums.php:518 forums.php:521 forums.php:552
+#: forums.php:576 forums.php:633 forums.php:657 forums.php:702 forums.php:722
+#: forums.php:725 forums.php:766 forums.php:770 forums.php:798
+#, fuzzy
+msgid "Zugriff verweigert..."
+msgstr "Accesso negato..."
+
+#: forums.php:470 forums.php:574 forums.php:655
+#, fuzzy
+msgid "Thema eröffnet!"
+msgstr "Argomento aperto!"
+
+#: forums.php:483 forums.php:588 forums.php:668 forums.php:1709
+msgid "Geschlossen"
+msgstr "Chiuso"
+
+#: forums.php:678
+#, fuzzy
+msgid "Fehler beim Löschen des Themas..."
+msgstr "Errore nell'eliminazione dell'argomento..."
+
+#: forums.php:692
+#, fuzzy
+msgid "Thema gelöscht!"
+msgstr "Argomento cancellato!"
+
+#: forums.php:706
+#, fuzzy
+msgid "Ungültiges Thema!"
+msgstr "Argomento non valido!"
+
+#: forums.php:736
+#, fuzzy
+msgid "Fehler beim Löschen des Beitrags"
+msgstr "Errore nell'eliminazione del post"
+
+#: forums.php:740
+#, fuzzy
+msgid "Beitrag gelöscht"
+msgstr "Messaggio cancellato"
+
+#: forums.php:786 forums.php:794
+#, fuzzy
+msgid "Beitrag aktualisiert..."
+msgstr "Post aggiornato..."
+
+#: forums.php:805 forums.php:1056 forums.php:1101
+#, fuzzy, php-format
+msgid ""
+"Du musst ein registrierter und angemeldeter Benutzer dieses Blogs sein, um "
+"in diesem Forum posten zu können. Bitte <a href=\"%s\">anmelden</a> oder %s."
+msgstr ""
+"Devi essere un utente registrato e loggato di questo blog per scrivere in "
+"questo forum. Effettua il <a href=\"%s\">login</a> o %s."
+
+#: forums.php:816
+#, fuzzy
+msgid "Beitrag hinzugefügt..."
+msgstr "Contributo aggiunto..."
+
+#: forums.php:841
+#, fuzzy
+msgid "Ungültiger Forum-Code"
+msgstr "Codice forum non valido"
+
+#: forums.php:853
+#, fuzzy
+msgid "Zurück zum Index"
+msgstr "Torna all'indice"
+
+#: forums.php:855 forums.php:1315 forums.php:1318
+#, fuzzy
+msgid "Thema löschen"
+msgstr "Cancellare l'argomento"
+
+#: forums.php:857
+#, fuzzy
+msgid "Thema öffnen"
+msgstr "Argomento aperto"
+
+#: forums.php:859
+#, fuzzy
+msgid "Thema schließen"
+msgstr "Chiudere l'argomento"
+
+#: forums.php:870
+#, fuzzy
+msgid "Letzte Aktualisierung: "
+msgstr "Ultimo aggiornamento:"
+
+#: forums.php:870 forums.php:1476
+#, fuzzy
+msgid "D, F jS Y g:i A"
+msgstr "D, F jS Y g:i A"
+
+#: forums.php:871
+#, fuzzy
+msgid "Letzte Antwort von: "
+msgstr "Ultima risposta da:"
+
+#: forums.php:915
+msgid "Suchergebnisse"
+msgstr "Risultato di ricerca"
+
+#: forums.php:918
+#, fuzzy
+msgid "Beiträge:"
+msgstr "Contributi:"
+
+#: forums.php:957
+#, fuzzy
+msgid "Keine Treffer..."
+msgstr "Nessun riscontro..."
+
+#: forums.php:989
+msgid "Suche"
+msgstr "cerca"
+
+#: forums.php:1060 forums.php:1107
+#, fuzzy
+msgid "Neuer Beitrag"
+msgstr "Nuovo contributo"
+
+#: forums.php:1063 forums.php:1110 forums.php:1184 forums.php:1594
+#, fuzzy
+msgid "Du musst alle erforderlichen Felder ausfüllen..."
+msgstr "È necessario compilare tutti i campi obbligatori..."
+
+#: forums.php:1075 forums.php:1122 forums.php:1202 forums.php:1611
+#, fuzzy
+msgid "Beitrag:"
+msgstr "Contributo:"
+
+#: forums.php:1078 forums.php:1125 forums.php:1209 forums.php:1608
+#: forums.php:1614 forums.php:1987 forums.php:2056 forums.php:2161
+#: forums.php:2231
+#, fuzzy
+msgid "Benötigt"
+msgstr "Richiede"
+
+#: forums.php:1083
+#, fuzzy
+msgid "Beitrag senden &raquo;"
+msgstr "Invia un contributo \""
+
+#: forums.php:1130 forums.php:1619
+#, fuzzy
+msgid "Beitrag senden"
+msgstr "Inviare il contributo"
+
+#: forums.php:1181
+#, fuzzy
+msgid "Beitrag bearbeiten"
+msgstr "Modifica post"
+
+#: forums.php:1214
+#, fuzzy
+msgid "Aktualisieren &raquo;"
+msgstr "Aggiornamento \""
+
+#: forums.php:1215 forums.php:1272 forums.php:1327
+#, fuzzy
+msgid "Abbrechen &raquo;"
+msgstr "Annullamento \""
+
+#: forums.php:1259 forums.php:1262
+#, fuzzy
+msgid "Beitrag löschen"
+msgstr "Cancellare il messaggio"
+
+#: forums.php:1260 forums.php:1316 forums.php:1589
+#, fuzzy
+msgid "Du musst eingeloggt sein..."
+msgstr "Devi essere connesso..."
+
+#: forums.php:1264
+#, fuzzy
+msgid "Möchtest Du diesen Beitrag wirklich löschen?"
+msgstr "Vuoi davvero cancellare questo post?"
+
+#: forums.php:1271 forums.php:1326
+#, fuzzy
+msgid "Löschen &raquo;"
+msgstr "Cancellare \""
+
+#: forums.php:1320
+#, fuzzy
+msgid "Möchtest Du dieses Thema wirklich löschen?"
+msgstr "Vuoi davvero cancellare questo topic?"
+
+#: forums.php:1363
+#, fuzzy
+msgid " &laquo; Bisherige"
+msgstr " \" Precedente"
+
+#: forums.php:1365 forums.php:1408
+#, fuzzy, php-format
+msgid "Zeige %1s > %2s von %3s Beiträgen"
+msgstr "Mostra %1s > %2s di %3s messaggi"
+
+#: forums.php:1371
+#, fuzzy
+msgid "Weitere  &raquo;"
+msgstr "Altro \""
+
+#: forums.php:1406
+#, fuzzy
+msgid "Bisherige"
+msgstr "Precedente"
+
+#: forums.php:1414
+msgid "Weitere"
+msgstr "Altri"
+
+#: forums.php:1476
+#, fuzzy
+msgid "Veröffentlicht: "
+msgstr "Pubblicato:"
+
+#: forums.php:1484 forums.php:1486 forums.php:1490 forums.php:1963
+msgid "Bearbeiten"
+msgstr "Modifica"
+
+#: forums.php:1484
+msgid "Löschen"
+msgstr "Cancellare"
+
+#: forums.php:1504
+#, fuzzy
+msgid "Keine Beiträge zum Anzeigen..."
+msgstr "Nessun contributo da visualizzare..."
+
+#: forums.php:1588 forums.php:1591
+#, fuzzy
+msgid "Neues Thema"
+msgstr "Nuovo argomento"
+
+#: forums.php:1605
+msgid "Titel:"
+msgstr "Titolo:"
+
+#: forums.php:1645 forums.php:1652
+#, fuzzy
+msgid "THEMEN"
+msgstr "TEMI"
+
+#: forums.php:1646 forums.php:1653
+#, fuzzy
+msgid "BEITRÄGE"
+msgstr "CONTRIBUTI"
+
+#: forums.php:1647 forums.php:1654
+#, fuzzy
+msgid "NEUESTER BEITRAG"
+msgstr "ULTIMO CONTRIBUTO"
+
+#: forums.php:1652
+#, fuzzy
+msgid "NEUES THEMA"
+msgstr "NUOVO ARGOMENTO"
+
+#: forums.php:1723 forums.php:1729
+#, fuzzy
+msgid "Keine Themen zum Anzeigen..."
+msgstr "Nessun argomento da visualizzare..."
+
+#: forums.php:1729
+#, fuzzy
+msgid "Klicke hier um ein neues Thema zu erstellen."
+msgstr "Fare clic qui per creare un nuovo argomento."
+
+#: forums.php:1823 forums.php:1901
+#, fuzzy
+msgid "Netter Versuch..."
+msgstr "Bel tentativo..."
+
+#: forums.php:1860
+#, fuzzy
+msgid "Themen pro Seite"
+msgstr "Argomenti per pagina"
+
+#: forums.php:1864
+#, fuzzy
+msgid "Beiträge pro Seite"
+msgstr "Contributi per pagina"
+
+#: forums.php:1868
+#, fuzzy
+msgid "Maximale Anzahl von Foren"
+msgstr "Numero massimo di forum"
+
+#: forums.php:1873
+#, fuzzy
+msgid "Maximale Anzahl von Foren für Pro Blogs"
+msgstr "Numero massimo di forum per i blog Pro"
+
+#: forums.php:1878
+#, fuzzy
+msgid "Upgrades zulassen"
+msgstr "Consentire gli aggiornamenti"
+
+#: forums.php:1885 forums.php:2038 forums.php:2106
+msgid "Speichern"
+msgstr "Salvare"
+
+#: forums.php:1912 forums.php:1916
+#, fuzzy
+msgid "Foren verwalten"
+msgstr "Gestire i forum"
+
+#: forums.php:1912 forums.php:1980 forums.php:2048
+#, fuzzy
+msgid "Neues Forum"
+msgstr "Nuovo forum"
+
+#: forums.php:1928
+#, fuzzy
+msgid ""
+"Aktualisiere Deinen Blog jetzt, um Foren hinzuzufügen, den Speicherplatz zu "
+"vergrößern, Videos einzubetten und mehr."
+msgstr ""
+"Aggiornate subito il vostro blog per aggiungere forum, aumentare lo spazio "
+"di archiviazione, incorporare video e altro ancora."
+
+#: forums.php:1932
+#, fuzzy
+msgid "Klicke hier um ein neues Forum hinzuzufügen."
+msgstr "Fare clic qui per aggiungere un nuovo forum."
+
+#: forums.php:1964
+msgid "Entfernen"
+msgstr "Elimina"
+
+#: forums.php:1984
+#, fuzzy
+msgid "Foren-Name"
+msgstr "Nome del forum"
+
+#: forums.php:1990 forums.php:2059 forums.php:2164 forums.php:2234
+msgid "Beschreibung"
+msgstr "Descrizione"
+
+#: forums.php:1993 forums.php:2062 forums.php:2167 forums.php:2237
+#, fuzzy
+msgid "Optional"
+msgstr "Opzionale"
+
+#: forums.php:1996 forums.php:2065 forums.php:2170 forums.php:2240
+#, fuzzy
+msgid "Hauptfarbe"
+msgstr "Colore principale"
+
+#: forums.php:2000 forums.php:2007 forums.php:2014 forums.php:2021
+#: forums.php:2069 forums.php:2076 forums.php:2083 forums.php:2090
+#: forums.php:2174 forums.php:2181 forums.php:2188 forums.php:2195
+#: forums.php:2244 forums.php:2251 forums.php:2258 forums.php:2265
+#, fuzzy
+msgid "Optional - Beispiel: #000000 ODER #FFFFFF"
+msgstr "Opzionale - Esempio: #000000 O #FFFFFF"
+
+#: forums.php:2003 forums.php:2072 forums.php:2177 forums.php:2247
+#, fuzzy
+msgid "Sekundäre Farbe"
+msgstr "Colore secondario"
+
+#: forums.php:2010 forums.php:2079 forums.php:2184 forums.php:2254
+#, fuzzy
+msgid "Header Farbe"
+msgstr "Colore dell'intestazione"
+
+#: forums.php:2017 forums.php:2086 forums.php:2191 forums.php:2261
+#, fuzzy
+msgid "Rahmen Farbe"
+msgstr "Colore del telaio"
+
+#: forums.php:2024 forums.php:2093 forums.php:2198 forums.php:2268
+#, fuzzy
+msgid "Rahmengröße"
+msgstr "Dimensioni del telaio"
+
+#: forums.php:2049 forums.php:2223
+#, fuzzy
+msgid "Bitte fülle alle geforderten Felder aus"
+msgstr "Compilare tutti i campi obbligatori"
+
+#: forums.php:2053 forums.php:2158 forums.php:2228
+msgid "Name"
+msgstr "Nome"
+
+#: forums.php:2137
+#, fuzzy
+msgid "Forum hinzugefügt."
+msgstr "Forum aggiunto."
+
+#: forums.php:2153 forums.php:2222
+#, fuzzy
+msgid "Forum bearbeiten"
+msgstr "Modifica del forum"
+
+#: forums.php:2211 forums.php:2281
+msgid "Änderungen speichern"
+msgstr "Save changes"
+
+#: forums.php:2317
+#, fuzzy
+msgid "Einstellungen gespeichert."
+msgstr "Impostazioni salvate."
+
+#: forums.php:2327
+#, fuzzy
+msgid "Forum entfernen"
+msgstr "Rimuovere il forum"
+
+#: forums.php:2328
+#, fuzzy
+msgid ""
+"Möchtest Du dieses Forum wirklich entfernen? Alle Themen und Beiträge werden "
+"gelöscht."
+msgstr ""
+"Volete davvero rimuovere questo forum? Tutti gli argomenti e i messaggi "
+"saranno cancellati."
+
+#: forums.php:2332
+#, fuzzy
+msgid "Fortsetzen"
+msgstr "Continua"
+
+#: forums.php:2333
+msgid "Abbrechen"
+msgstr "Cancella"
+
+#: forums.php:2350
+#, fuzzy
+msgid "Forum entfernt."
+msgstr "Forum rimosso."
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:56
+#, fuzzy
+msgid "View details"
+msgstr "Visualizza i dettagli"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:79
+#, fuzzy, php-format
+msgid "Weitere Informationen zu %s"
+msgstr "Ulteriori informazioni su %s"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:130
+#, fuzzy
+msgid "Auf neuere Version prüfen"
+msgstr "Verificare la presenza di una versione più recente"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:217
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Keine neuere Version von %s im PSOURCE REPO gefunden."
+msgstr "Non è stata trovata una versione più recente di %s in PSOURCE REPO."
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:219
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid "Im PSOURCE REPO ist eine <b>neuere Version von %s</b> verfügbar!."
+msgstr "Una <b>versione più recente di %s</b> è disponibile nel PSOURCE REPO!"
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:221
+#, fuzzy, php-format
+msgctxt "the plugin title"
+msgid ""
+"Entschuldige, es konnte nicht festgestellt werden, ob Updates für %s "
+"verfügbar sind."
+msgstr ""
+"Spiacente, non è stato possibile determinare se sono disponibili "
+"aggiornamenti per %s."
+
+#: psource/psource-plugin-update/Puc/v5p0/Plugin/Ui.php:227
+#, fuzzy, php-format
+msgid "Unbekannter PSOURCE-UPDATTER-Status \"%s\""
+msgstr "Stato PSOURCE-UPDATTER sconosciuto \"%s\""
+
+#: psource/psource-plugin-update/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+#, fuzzy
+msgid "There is no changelog available."
+msgstr "Non è disponibile un changelog."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Quick Forum"
+msgstr "Forum rapido"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://n3rds.work/piestingtal_source/pscp-forum-plugin/"
+msgstr "https://n3rds.work/piestingtal_source/pscp-forum-plugin/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Ermöglicht jedem Blog, eigene Foren zu haben - eingebettet in jede Seite "
+"oder jeden Beitrag."
+msgstr ""
+"Permette a ogni blog di avere i propri forum, incorporati in ogni pagina o "
+"post."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WMS N@W"
+msgstr "WMS N@W"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://n3rds.work"
+msgstr "https://n3rds.work"

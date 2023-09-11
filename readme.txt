@@ -109,8 +109,7 @@ Auf der Forenübersichtsseite kannst Du den Titel und die Beschreibung sehen und
 * it_IT
 * en_US
 * fr_FR
-* de_DE (informell)
-* el 
+* de_DE (informell) 
 
 [POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
 
@@ -141,6 +140,11 @@ Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktion
 [POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
 
 == ChangeLog ==
+
+= 1.0.1 =
+
+* Languagefiles: it_IT, en_US, fr_FR
+* Einige Textanpassungen
 
 = 1.0.0 =
 * Release
