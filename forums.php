@@ -2035,7 +2035,7 @@ function forums_manage_output() {
 					</tr>
 					</table>
 				<p class="submit">
-				<input type="submit" name="Submit" value="<?php _e( 'Speichern', 'psforum' ) ?>" />
+				<input type="submit" name="Submit" value="<?php _e( 'SPEICHERN', 'psforum' ) ?>" />
 				</p>
 				</form>
 				<?php

@@ -145,6 +145,8 @@ Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktion
 
 * Languagefiles: it_IT, en_US, fr_FR
 * Einige Textanpassungen
+* Mit besseren Admin-Style begonnen
+* Neu Strukturierung des Plugins begonnen
 
 = 1.0.0 =
 * Release
