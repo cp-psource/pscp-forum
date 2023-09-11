@@ -1724,7 +1724,7 @@ function forums_output_topics($tmp_fid) {
 		} else {
 			$content =  $content . '<table border="0" width="100%" cellpadding="0" cellspacing="0">';
 			$content =  $content . '<tr>';
-			$content =  $content . '<td><center>' . __( 'Keine Themen zum Anzeigen...', 'psforum' ) . '<a href="'.add_query_arg( array('action' => 'new_topic', 'fid' => $tmp_fid), get_permalink() ) .'">' . __( 'Klicke hier, um ein neues Thema zu erstellen.', 'psforum' ) . '</a></center></td>';
+			$content =  $content . '<td><center>' . __( 'Keine Themen zum Anzeigen...', 'psforum' ) . '<a href="'.add_query_arg( array('action' => 'new_topic', 'fid' => $tmp_fid), get_permalink() ) .'">' . __( 'Klicke hier um ein neues Thema zu erstellen.', 'psforum' ) . '</a></center></td>';
 			$content =  $content . '</tr>';
 			$content =  $content . '</table>';
 		}
@@ -1927,7 +1927,7 @@ function forums_manage_output() {
 					echo '<div id="message" class="error"><p><a href="' . $psts->checkout_url($blog_id) . '">' . $feature_message . '</a></p></div>';
 				} else {
 				?>
-					<p><a href="admin.php?page=psforum&action=new_forum"><?php _e( 'Klicke hier, um ein neues Forum hinzuzufügen.', 'psforum' ) ?></a></p>
+					<p><a href="admin.php?page=psforum&action=new_forum"><?php _e( 'Klicke hier um ein neues Forum hinzuzufügen.', 'psforum' ) ?></a></p>
 				<?php	
 				}
 			} else {
@@ -1979,7 +1979,7 @@ function forums_manage_output() {
 				<form name="form1" method="POST" action="admin.php?page=psforum&action=new_forum_process">
 					<table class="form-table">
 					<tr valign="top">
-					<th scope="row"><?php _e( 'Name', 'psforum' ) ?></th>
+					<th scope="row"><?php _e( 'Foren-Name', 'psforum' ) ?></th>
 					<td><input type="text" name="forum_name" id="forum_name" style="width: 95%" value="<?php echo esc_attr(isset($_POST['forum_name'])?$_POST['forum_name']:''); ?>" />
 					<br />
 					<?php _e( 'Benötigt', 'psforum' ) ?></td>
