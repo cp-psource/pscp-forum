@@ -100,21 +100,23 @@ function forums_plug_init() {
 	//--------------------------------Premium---------------------------------//
 	if ($forums_enable_upgrades == 1) {
 		if (function_exists('upgrades_register_feature')){
-		//register premium features
-		upgrades_register_feature( '68daf8bdc8755fe8f4859024b3054fb8', __( 'Foren', 'psforum' ), __( 'Zusätzliche Foren', 'psforum' ) );
+			//register premium features
+			upgrades_register_feature( '68daf8bdc8755fe8f4859024b3054fb8', __( 'Foren', 'psforum' ), __( 'Zusätzliche Foren', 'psforum' ) );
 	
-		//load premium features
-		if (upgrades_active_feature('68daf8bdc8755fe8f4859024b3054fb8') == 'active'){
+			//load premium features
+			if (upgrades_active_feature('68daf8bdc8755fe8f4859024b3054fb8') == 'active'){
+				$forums_max_forums = $forums_upgrades_forums;
+			}
+		} 
+		else if (function_exists('is_pro_site') && is_pro_site()) {
 			$forums_max_forums = $forums_upgrades_forums;
 		}
-		} else if (function_exists('is_pro_site') && is_pro_site()) {
-		$forums_max_forums = $forums_upgrades_forums;
-	}
 	}
 	
 	if ( defined( 'WPMU_PLUGIN_DIR' ) && file_exists( WPMU_PLUGIN_DIR . '/' . basename( __FILE__ ) ) ) {
 		load_muplugin_textdomain( 'psforum', WPMU_PLUGIN_DIR .'pscp-forum/languages' );
-	} else {
+	} 
+	else {
 		load_plugin_textdomain( 'psforum', false, 'pscp-forum/languages' );
 	}
 	
@@ -139,7 +141,7 @@ function forums_make_current() {
 	if ( !empty($wpdb->base_prefix) ) {
 		$db_prefix = $wpdb->base_prefix;
 		if (get_site_option( "forums_version" ) == '') {
-			add_site_option( 'forums_version', '0.0.0' );
+			add_site_option( 'forums_version', '1.0.0' );
 		}
 
 		if (get_site_option( "forums_version" ) == $forums_current_version) {
@@ -153,7 +155,7 @@ function forums_make_current() {
 	} else {
 		$db_prefix = $wpdb->prefix;
 		if (get_option( "forums_version" ) == '') {
-			add_option( 'forums_version', '0.0.0' );
+			add_option( 'forums_version', '1.0.0' );
 		}
 
 		if (get_option( "forums_version" ) == $forums_current_version) {
