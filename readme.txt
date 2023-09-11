@@ -1,3 +1,20 @@
+=== Quick Forum ===
+Contributors: DerN3rd (WMS N@W)
+Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
+Tags: multisite, suche, netzwerksuche
+Requires at least: 4.9
+Tested up to: 5.6
+Stable tag: 2.0.5
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Gib jeder Webseite in Deinem Multisite-Netzwerk ein einfaches Tool zum Erstellen eigener Foren, die direkt in jede Seite oder jeden Beitrag eingebettet werden können. Fördere die Teilnahme an der Community und baue Deine Benutzerbasis mit themenspezifischen Diskussionsforen auf.
+
+Unlock new ways to search and view content by indexing posts from any website in your network.
+
+== Description ==
+
 # PS Forum
 
 Gib jeder Webseite in Deinem Multisite-Netzwerk ein einfaches Tool zum Erstellen eigener Foren, die direkt in jede Seite oder jeden Beitrag eingebettet werden können. Fördere die Teilnahme an der Community und baue Deine Benutzerbasis mit themenspezifischen Diskussionsforen auf.
@@ -67,7 +84,7 @@ Auf der Forenübersichtsseite kannst Du den Titel und die Beschreibung sehen und
 
 ### Forenfunktionen
 
-#### Große Kontrolle und einfachere Kommunikation.
+#### Große Kontrolle und einfachere Kommunikation. 
 
 * Unbegrenzte Foren 
 * Webseiten-spezifische Foren für Multisite 
@@ -88,3 +105,43 @@ Auf der Forenübersichtsseite kannst Du den Titel und die Beschreibung sehen und
 [41]: https://n3rds.work/wp-content/uploads/2023/09/forums12.jpg
 [42]: https://n3rds.work/wp-content/uploads/2023/09/forum63.jpg
 [43]: https://n3rds.work/wp-content/uploads/2023/09/forum61.jpg
+
+=== Sprachen / Languages ===
+
+* it_IT
+* en_US
+* fr_FR
+* de_DE (informell)
+* el 
+
+[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+
+=== Hilfe und Support / Help and Support ===
+
+[Projektseite](https://n3rds.work/piestingtal_source/multisite-beitragsindex-plugin/)
+[GitHub](https://github.com/piestingtal-source/ps-postindexer)
+
+== Mehr Psource ==
+
+Erweitere die Möglichkeiten von PS Multisite Beitragsindex mit den passenden Plugins und Widgets!
+
+Expand the possibilities of PS Multisite post index with the appropriate plugins and widgets!
+
+=== PS Multisite Netzwerksuche ===
+
+[PS Multisite Netzwerksuche](https://n3rds.work/piestingtal_source/multisite-netzwerksuche-plugin/) ist in der Lage eine Netzwerkweite Suche anhand des Beitragsindex durchzuführen.
+
+== Hilf uns ==
+
+Viele, viele Kaffees konsumieren wir während wir an unseren Plugins und Themes arbeiten.
+Wie wärs? Möchtest Du uns mit einer Kaffee-Spende bei der Arbeit an unseren Plugins unterstützen?
+
+=== Unterstütze uns ===
+
+Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
+
+[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+
+== ChangeLog ==
+
+= 3.1.4 =

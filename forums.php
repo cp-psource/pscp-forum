@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: PSOURCE Forum
+Plugin Name: Quick Forum
 Plugin URI: https://n3rds.work/piestingtal_source/pscp-forum-plugin/
 Description: Ermöglicht jedem Blog, eigene Foren zu haben - eingebettet in jede Seite oder jeden Beitrag.
 Author: WMS N@W
@@ -12,7 +12,7 @@ Domain Path: /languages
 */
 
 /* 
-Copyright 2020-2021 WMS N@W (https://n3rds.work)
+Copyright 2020-2023 WMS N@W (https://n3rds.work)
 Author - DerN3rd
 
   
@@ -29,12 +29,14 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-require 'psource-plugin-update/plugin-update-checker.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=pscp-forum', //Metadata URL.
-	__FILE__, //Full path to the main plugin file.
-	'pscp-forum' //Plugin slug. Usually it's the same as the name of the directory.
+require 'psource/psource-plugin-update/psource-plugin-updater.php';
+use Psource\PluginUpdateChecker\v5\PucFactory;
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=pscp-forum', 
+	__FILE__, 
+	'pscp-forum' 
 );
+
 $forums_current_version = '2.0.5';
 
 //------------------------------------------------------------------------//
