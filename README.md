@@ -82,9 +82,9 @@ Auf der Forenübersichtsseite kannst Du den Titel und die Beschreibung sehen und
 * Rahmengröße einstellen
 
 [36]: https://n3rds.work/wp-content/uploads/2020/07/forum-screenshot.jpg
-[37]: https://premium.wpmudev.org/wp-content/uploads/2008/08/forum-style-735x470.jpg
-[39]: https://premium.wpmudev.org/wp-content/uploads/2012/03/forum65.jpg
-[40]: https://premium.wpmudev.org/wp-content/uploads/2012/03/forum64.jpg
-[41]: https://premium.wpmudev.org/wp-content/uploads/2009/11/forums12.jpg
-[42]: https://premium.wpmudev.org/wp-content/uploads/2012/03/forum63.jpg
-[43]: https://premium.wpmudev.org/wp-content/uploads/2012/03/forum61.jpg
+[37]: https://n3rds.work/wp-content/uploads/2023/09/forum-style-735x470.jpg
+[39]: https://n3rds.work/wp-content/uploads/2023/09/forum65.jpg
+[40]: https://n3rds.work/wp-content/uploads/2023/09/forum64.jpg
+[41]: https://n3rds.work/wp-content/uploads/2023/09/forums12.jpg
+[42]: https://n3rds.work/wp-content/uploads/2023/09/forum63.jpg
+[43]: https://n3rds.work/wp-content/uploads/2023/09/forum61.jpg
