@@ -11,8 +11,6 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Gib jeder Webseite in Deinem Multisite-Netzwerk ein einfaches Tool zum Erstellen eigener Foren, die direkt in jede Seite oder jeden Beitrag eingebettet werden können. Fördere die Teilnahme an der Community und baue Deine Benutzerbasis mit themenspezifischen Diskussionsforen auf.
 
-Unlock new ways to search and view content by indexing posts from any website in your network.
-
 == Description ==
 
 # PS Forum
