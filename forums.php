@@ -5,7 +5,7 @@ Plugin URI: https://n3rds.work/piestingtal_source/pscp-forum-plugin/
 Description: Ermöglicht jedem Blog, eigene Foren zu haben - eingebettet in jede Seite oder jeden Beitrag.
 Author: WMS N@W
 Author URI: https://n3rds.work
-Version: 2.0.5
+Version: 1.0.0
 Requires at least: 4.9
 Text Domain: psforum
 Domain Path: /languages
@@ -37,7 +37,7 @@ $MyUpdateChecker = PucFactory::buildUpdateChecker(
 	'pscp-forum' 
 );
 
-$forums_current_version = '2.0.5';
+$forums_current_version = '1.0.0';
 
 //------------------------------------------------------------------------//
 //---Config---------------------------------------------------------------//

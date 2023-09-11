@@ -2,7 +2,7 @@
  * Forums plugin admin javascript
  * 
  * @author	DerN3rd <webmaster@n3rds.work>
- * @since	1.6.6
+ * @since	1.0.0
  */
 
 (function($) {
