@@ -247,10 +247,13 @@
             // Linked elements or callback
             if (typeof fb.callback === 'object') {
                 // Set background/foreground color
+                var sanitizedColor = DOMPurify.sanitize(fb.color); // Sanitize the color input
+                var backgroundColor = sanitizedColor ? sanitizedColor : '#FFF'; // Fallback to a default color if the input is empty or invalid
                 $(fb.callback).css({
-                    backgroundColor: DOMPurify.sanitize(fb.color), // Sanitize the color input
+                    backgroundColor: backgroundColor,
                     color: fb.hsl[2] > 0.5 ? '#000' : '#fff'
                 });
+            }
 
                // Ändern des verknüpften Werts
                 $(fb.callback).each(function() {
