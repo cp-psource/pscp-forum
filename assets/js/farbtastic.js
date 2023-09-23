@@ -253,7 +253,6 @@
                     backgroundColor: backgroundColor,
                     color: fb.hsl[2] > 0.5 ? '#000' : '#fff'
                 });
-            }
 
                // Ändern des verknüpften Werts
                 $(fb.callback).each(function() {
