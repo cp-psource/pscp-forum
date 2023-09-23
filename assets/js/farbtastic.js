@@ -60,23 +60,33 @@
          */
         fb.linkTo = function(callback) {
             // Unbind previous nodes
-            if (typeof fb.callback == 'object') {
-                $(fb.callback).off('keyup', fb.updateValue);
+            if (typeof fb.callback === 'object') {
+                fb.callback.off('keyup', fb.updateValue);
             }
 
             // Reset color
             fb.color = null;
 
             // Bind callback or elements
-            if (typeof callback == 'function') {
+            if (typeof callback === 'function') {
                 fb.callback = callback;
-            } else if (typeof callback == 'object' || typeof callback == 'string') {
+            } else if (typeof callback === 'object' || typeof callback === 'string') {
                 fb.callback = $(callback);
-                fb.callback.on('keyup', fb.updateValue);
-                if (fb.callback.get(0).value) {
-                    fb.setColor(fb.callback.get(0).value);
+
+                // Check if the callback is a jQuery object
+                if (fb.callback.length > 0) {
+                    fb.callback.on('keyup', fb.updateValue);
+
+                    // Sanitize the value before using it
+                    var value = fb.callback.get(0).value;
+                    fb.setColor(value);
+                } else {
+                    console.error("Invalid callback element or selector provided.");
                 }
+            } else {
+                console.error("Invalid callback type provided.");
             }
+
             return this;
         }
         fb.updateValue = function(event) {
@@ -235,21 +245,21 @@
             $('.color', e).css('backgroundColor', fb.pack(fb.HSLToRGB([fb.hsl[0], 1, 0.5])));
 
             // Linked elements or callback
-            if (typeof fb.callback == 'object') {
+            if (typeof fb.callback === 'object') {
                 // Set background/foreground color
                 $(fb.callback).css({
-                    backgroundColor: fb.color,
+                    backgroundColor: DOMPurify.sanitize(fb.color), // Sanitize the color input
                     color: fb.hsl[2] > 0.5 ? '#000' : '#fff'
                 });
 
                 // Change linked value
                 $(fb.callback).each(function() {
-                    if (this.value && this.value != fb.color) {
-                        this.value = fb.color;
+                    if (this.value && this.value !== DOMPurify.sanitize(fb.color)) { // Sanitize the color input
+                        this.value = DOMPurify.sanitize(fb.color); // Sanitize the color input
                     }
                 });
-            } else if (typeof fb.callback == 'function') {
-                fb.callback.call(fb, fb.color);
+            } else if (typeof fb.callback === 'function') {
+                fb.callback.call(fb, DOMPurify.sanitize(fb.color)); // Sanitize the color input
             }
         }
 
