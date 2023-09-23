@@ -252,10 +252,12 @@
                     color: fb.hsl[2] > 0.5 ? '#000' : '#fff'
                 });
 
-                // Change linked value
+               // Ändern des verknüpften Werts
                 $(fb.callback).each(function() {
-                    if (this.value && this.value !== DOMPurify.sanitize(fb.color)) { // Sanitize the color input
-                        this.value = DOMPurify.sanitize(fb.color); // Sanitize the color input
+                    // Überprüfen, ob der Wert vorhanden ist und ob er vom erwarteten Wert fb.color abweicht
+                    if (this.value && this.value !== DOMPurify.sanitize(fb.color)) {
+                        // Wenn der Wert nicht erwartet ist, säubern Sie ihn mit DOMPurify, bevor Sie ihn setzen
+                        this.value = DOMPurify.sanitize(fb.color);
                     }
                 });
             } else if (typeof fb.callback === 'function') {
