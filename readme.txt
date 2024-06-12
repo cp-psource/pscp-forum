@@ -1,6 +1,5 @@
 === Quick Forum ===
-Contributors: DerN3rd (WMS N@W)
-Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
+Contributors: DerN3rd (PSOURCE)
 Tags: multisite, suche, netzwerksuche
 Requires at least: 4.9
 Tested up to: 5.6

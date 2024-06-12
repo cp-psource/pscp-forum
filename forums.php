@@ -3,7 +3,7 @@
 Plugin Name: Quick Forum
 Plugin URI: https://n3rds.work/piestingtal_source/pscp-forum-plugin/
 Description: Ermöglicht jedem Blog, eigene Foren zu haben - eingebettet in jede Seite oder jeden Beitrag.
-Author: WMS N@W
+Author: PSOURCE
 Author URI: https://n3rds.work
 Version: 1.0.1
 Requires at least: 4.9
@@ -12,7 +12,7 @@ Domain Path: /languages
 */
 
 /* 
-Copyright 2020-2023 WMS N@W (https://n3rds.work)
+Copyright 2020-2023 PSOURCE (https://n3rds.work)
 Author - DerN3rd
 
   
@@ -29,13 +29,25 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-require 'psource/psource-plugin-update/psource-plugin-updater.php';
-use Psource\PluginUpdateChecker\v5\PucFactory;
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=pscp-forum', 
-	__FILE__, 
-	'pscp-forum' 
+
+/**
+ * @@@@@@@@@@@@@@@@@ PS UPDATER 1.3 @@@@@@@@@@@
+ **/
+require 'psource/psource-plugin-update/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+ 
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/cp-psource/pscp-forum',
+	__FILE__,
+	'pscp-forum'
 );
+ 
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
+
+/**
+ * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
+ **/
 
 $forums_current_version = '1.0.1';
 
@@ -312,7 +324,7 @@ function forums_plug_pages() {
 function forums_options_plug_pages() {
 	$page = WP_NETWORK_ADMIN ? 'settings.php' : 'options-general.php';
         $perms = WP_NETWORK_ADMIN ? 'manage_network_options' : 'manage_options';
-        add_submenu_page($page, __( 'Forum Einstellungen', 'psforum' ), __( 'Foren', 'psforum' ), $perms, 'psource_forum_settings', 'forums_manage_options_output', 'dashicons-format-status');
+        add_submenu_page($page, __( 'Forum Einstellungen', 'psforum' ), __( 'Foren', 'psforum' ), $perms, 'psource_forum_settings', 'forums_manage_options_output', 20);
 }
 
 function forums_non_supporter_output() {
