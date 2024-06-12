@@ -5,14 +5,14 @@ Plugin URI: https://cp-psource.github.io/pscp-forum/
 Description: Ermöglicht jedem Blog, eigene Foren zu haben - eingebettet in jede Seite oder jeden Beitrag.
 Author: PSOURCE
 Author URI: https://github.com/cp-psource
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 4.9
 Text Domain: psforum
 Domain Path: /languages
 */
 
 /* 
-Copyright 2020-2023 PSOURCE (https://github.com/cp-psource)
+Copyright 2020-2024 PSOURCE (https://github.com/cp-psource)
 Author - DerN3rd
 
   
@@ -49,7 +49,7 @@ $myUpdateChecker->setBranch('main');
  * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
  **/
 
-$forums_current_version = '1.0.1';
+$forums_current_version = '1.0.2';
 
 //------------------------------------------------------------------------//
 //---Config---------------------------------------------------------------//
@@ -153,7 +153,7 @@ function forums_make_current() {
 	if ( !empty($wpdb->base_prefix) ) {
 		$db_prefix = $wpdb->base_prefix;
 		if (get_site_option( "forums_version" ) == '') {
-			add_site_option( 'forums_version', '1.0.1' );
+			add_site_option( 'forums_version', '1.0.2' );
 		}
 
 		if (get_site_option( "forums_version" ) == $forums_current_version) {
@@ -167,7 +167,7 @@ function forums_make_current() {
 	} else {
 		$db_prefix = $wpdb->prefix;
 		if (get_option( "forums_version" ) == '') {
-			add_option( 'forums_version', '1.0.1' );
+			add_option( 'forums_version', '1.0.2' );
 		}
 
 		if (get_option( "forums_version" ) == $forums_current_version) {

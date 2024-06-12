@@ -3,7 +3,7 @@ Contributors: DerN3rd (PSOURCE)
 Tags: multisite, suche, netzwerksuche
 Requires at least: 4.9
 Tested up to: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -139,6 +139,14 @@ Mach eine [Spende per Überweisung oder PayPal](https://github.com/cp-psource/sp
 [POWERED BY PSOURCE](https://github.com/cp-psource/psource_kategorien/psource-plugins/)
 
 == ChangeLog ==
+
+= 1.0.2 =
+
+* PhP 8.3 Updates
+* jQuery 3.0 Updates
+* Updater 1.3
+* Linkanpassungen
+* Docs gestartet
 
 = 1.0.1 =
 
