@@ -81,10 +81,10 @@ Auf der Forenübersichtsseite kannst Du den Titel und die Beschreibung sehen und
 * Forumssuche 
 * Rahmengröße einstellen
 
-[36]: https://n3rds.work/wp-content/uploads/2020/07/forum-screenshot.jpg
-[37]: https://n3rds.work/wp-content/uploads/2023/09/forum-style-735x470.jpg
-[39]: https://n3rds.work/wp-content/uploads/2023/09/forum65.jpg
-[40]: https://n3rds.work/wp-content/uploads/2023/09/forum64.jpg
-[41]: https://n3rds.work/wp-content/uploads/2023/09/forums12.jpg
-[42]: https://n3rds.work/wp-content/uploads/2023/09/forum63.jpg
-[43]: https://n3rds.work/wp-content/uploads/2023/09/forum61.jpg
+[36]: https://github.com/cp-psource/wp-content/uploads/2020/07/forum-screenshot.jpg
+[37]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum-style-735x470.jpg
+[39]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum65.jpg
+[40]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum64.jpg
+[41]: https://github.com/cp-psource/wp-content/uploads/2023/09/forums12.jpg
+[42]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum63.jpg
+[43]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum61.jpg

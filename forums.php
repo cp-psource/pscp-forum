@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Quick Forum
-Plugin URI: https://n3rds.work/piestingtal_source/pscp-forum-plugin/
+Plugin URI: https://cp-psource.github.io/pscp-forum/
 Description: Ermöglicht jedem Blog, eigene Foren zu haben - eingebettet in jede Seite oder jeden Beitrag.
 Author: PSOURCE
-Author URI: https://n3rds.work
+Author URI: https://github.com/cp-psource
 Version: 1.0.1
 Requires at least: 4.9
 Text Domain: psforum
@@ -12,7 +12,7 @@ Domain Path: /languages
 */
 
 /* 
-Copyright 2020-2023 PSOURCE (https://n3rds.work)
+Copyright 2020-2023 PSOURCE (https://github.com/cp-psource)
 Author - DerN3rd
 
   

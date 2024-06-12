@@ -95,13 +95,13 @@ Auf der Forenübersichtsseite kannst Du den Titel und die Beschreibung sehen und
 * Forumssuche 
 * Rahmengröße einstellen
 
-[36]: https://n3rds.work/wp-content/uploads/2020/07/forum-screenshot.jpg
-[37]: https://n3rds.work/wp-content/uploads/2023/09/forum-style-735x470.jpg
-[39]: https://n3rds.work/wp-content/uploads/2023/09/forum65.jpg
-[40]: https://n3rds.work/wp-content/uploads/2023/09/forum64.jpg
-[41]: https://n3rds.work/wp-content/uploads/2023/09/forums12.jpg
-[42]: https://n3rds.work/wp-content/uploads/2023/09/forum63.jpg
-[43]: https://n3rds.work/wp-content/uploads/2023/09/forum61.jpg
+[36]: https://github.com/cp-psource/wp-content/uploads/2020/07/forum-screenshot.jpg
+[37]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum-style-735x470.jpg
+[39]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum65.jpg
+[40]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum64.jpg
+[41]: https://github.com/cp-psource/wp-content/uploads/2023/09/forums12.jpg
+[42]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum63.jpg
+[43]: https://github.com/cp-psource/wp-content/uploads/2023/09/forum61.jpg
 
 === Sprachen / Languages ===
 
@@ -110,11 +110,11 @@ Auf der Forenübersichtsseite kannst Du den Titel und die Beschreibung sehen und
 * fr_FR
 * de_DE (informell) 
 
-[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+[POWERED BY PSOURCE](https://github.com/cp-psource/psource_kategorien/psource-plugins/)
 
 === Hilfe und Support / Help and Support ===
 
-[Projektseite](https://n3rds.work/piestingtal_source/multisite-beitragsindex-plugin/)
+[Projektseite](https://github.com/cp-psource/piestingtal_source/multisite-beitragsindex-plugin/)
 [GitHub](https://github.com/piestingtal-source/ps-postindexer)
 
 == Mehr Psource ==
@@ -125,7 +125,7 @@ Expand the possibilities of PS Multisite post index with the appropriate plugins
 
 === PS Multisite Netzwerksuche ===
 
-[PS Multisite Netzwerksuche](https://n3rds.work/piestingtal_source/multisite-netzwerksuche-plugin/) ist in der Lage eine Netzwerkweite Suche anhand des Beitragsindex durchzuführen.
+[PS Multisite Netzwerksuche](https://github.com/cp-psource/piestingtal_source/multisite-netzwerksuche-plugin/) ist in der Lage eine Netzwerkweite Suche anhand des Beitragsindex durchzuführen.
 
 == Hilf uns ==
 
@@ -134,9 +134,9 @@ Wie wärs? Möchtest Du uns mit einer Kaffee-Spende bei der Arbeit an unseren Pl
 
 === Unterstütze uns ===
 
-Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
+Mach eine [Spende per Überweisung oder PayPal](https://github.com/cp-psource/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
 
-[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+[POWERED BY PSOURCE](https://github.com/cp-psource/psource_kategorien/psource-plugins/)
 
 == ChangeLog ==
 

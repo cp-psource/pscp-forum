@@ -561,8 +561,8 @@ msgstr "Forum rapide"
 
 #. Plugin URI of the plugin/theme
 #, fuzzy
-msgid "https://n3rds.work/piestingtal_source/pscp-forum-plugin/"
-msgstr "https://n3rds.work/piestingtal_source/pscp-forum-plugin/"
+msgid "https://cp-psource.github.io/pscp-forum/"
+msgstr "https://cp-psource.github.io/pscp-forum/"
 
 #. Description of the plugin/theme
 #, fuzzy
@@ -578,5 +578,5 @@ msgid "PSOURCE"
 msgstr "PSOURCE"
 
 #. Author URI of the plugin/theme
-msgid "https://n3rds.work"
-msgstr "https://n3rds.work"
+msgid "https://github.com/cp-psource"
+msgstr "https://github.com/cp-psource"
